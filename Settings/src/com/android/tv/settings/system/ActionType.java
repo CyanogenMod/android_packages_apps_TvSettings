@@ -122,6 +122,12 @@ enum ActionType {
     DEVELOPER_APPS_DONT_KEEP_ACTIVITIES(R.string.system_dont_keep_activities),
     DEVELOPER_APPS_BACKGROUND_PROCESS_LIMIT(R.string.system_background_process_limit),
     DEVELOPER_APPS_SHOW_ALL_ANRS(R.string.system_show_all_anrs),
+    DEVELOPER_CM(R.string.system_cm),
+    DEVELOPER_CM_ALLOW_ROOT_ACCESS(R.string.root_access, R.string.root_access_none),
+    DEVELOPER_CM_ROOT_ACCESS_NONE(R.string.root_access_none),
+    DEVELOPER_CM_ROOT_ACCESS_APPS(R.string.root_access_apps),
+    DEVELOPER_CM_ROOT_ACCESS_ADB(R.string.root_access_adb),
+    DEVELOPER_CM_ROOT_ACCESS_ALL(R.string.root_access_all),
     /*
      * Keyboard
      */
